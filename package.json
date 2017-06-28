@@ -1,0 +1,21 @@
+{
+  "name": "geometrhythm-api",
+  "version": "1.0.0",
+  "description": "Backend for `geometrhythm-react`.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmloegcmluin/geometrhythm-api.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmloegcmluin/geometrhythm-api/issues"
+  },
+  "homepage": "https://github.com/cmloegcmluin/geometrhythm-api#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
