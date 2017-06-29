@@ -7,7 +7,8 @@
     "expect": false,
     "document": false,
     "beforeEach": false,
-    "describe": false
+    "describe": false,
+    "it": false
   },
   "rules": {
     "global-require": 0,
