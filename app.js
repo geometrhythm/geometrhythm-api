@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/v1/rhythms/:rhythm', (req, res) => {
-  res.json({ length: req.params.rhythm.length });
+  res.json({ rhythmLength: req.params.rhythm.length });
 });
 
 const PORT = process.env.PORT || 3000;

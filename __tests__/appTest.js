@@ -8,7 +8,7 @@ describe('app', () => {
       .get('/v1/rhythms/x--x--x---x-x---')
       .expect('Content-Type', /json/)
       .expect(200, {
-        length: 16,
+        rhythmLength: 16,
       });
   });
 });
