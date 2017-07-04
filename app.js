@@ -10,6 +10,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/v1/rhythms/:rhythm', (req, res) => {
+  console.log('analyzed rhythm', req.params.rhythm);
   res.json({ rhythmLength: req.params.rhythm.length });
 });
 
