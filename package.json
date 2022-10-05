@@ -4,9 +4,10 @@
   "description": "Backend for `geometrhythm-react`.",
   "main": "app.js",
   "scripts": {
+    "setup": "npm i",
     "start": "node app",
     "lint": "eslint .",
-    "test": "PORT=3001 mocha __tests__/*"
+    "test": "sh bin/test.sh"
   },
   "repository": {
     "type": "git",
@@ -18,16 +19,16 @@
   },
   "homepage": "https://github.com/cmloegcmluin/geometrhythm-api#readme",
   "dependencies": {
-    "cors": "^2.8.3",
-    "express": "^4.15.3"
+    "cors": "^2.8.5",
+    "express": "^4.18.1"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb": "^15.0.1",
-    "eslint-plugin-import": "^2.5.0",
-    "eslint-plugin-jsx-a11y": "^5.0.3",
-    "eslint-plugin-react": "^7.1.0",
-    "mocha": "^3.4.2",
-    "supertest": "^3.0.0"
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.31.8",
+    "mocha": "^10.0.0",
+    "supertest": "^6.3.0"
   }
 }
